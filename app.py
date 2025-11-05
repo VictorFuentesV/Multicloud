@@ -23,7 +23,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 # ===========================
 # CONFIG GLOBAL
 # ===========================
-st.set_page_config(page_title="Censura + Análisis Multi-IA", page_icon="🕵️‍♂️🤖", layout="wide")
+st.set_page_config(page_title="Análisis Multi-IA de Pólizas", page_icon="🤖", layout="wide")
 load_dotenv()
 
 # ===========================
@@ -431,7 +431,7 @@ with st.sidebar:
 # ===========================
 # UI PRINCIPAL
 # ===========================
-st.title("🕵️‍♂️ Censura → 🤖 Análisis Multi-IA de Pólizas")
+st.title("🤖 Análisis Multi-IA de Pólizas")
 st.markdown("Sube **2 o más PDFs**. Primero se **anonimizan** (1ª página), luego se **analizan** con IA en la nube para extraer precios por deducible, coberturas y una recomendación.")
 
 # --- Manejo robusto de estado para evitar "reinicios" tras descargar ---
